@@ -18,5 +18,8 @@
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "eslint": "8.15.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
   }
 }
