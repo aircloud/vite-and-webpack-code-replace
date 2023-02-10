@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "vite-and-webpack-code-replace",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r build",
+    "lint": "eslint --ext .js,.ts",
+    "release": "pnpm run build && lerna publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lerna-lite/cli": "^1.15.1",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "8.15.0"
+  }
+}
