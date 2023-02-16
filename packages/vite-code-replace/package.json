@@ -16,7 +16,7 @@
   "author": "aircloud",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aircloud/vite-and-vite-code-replace.git",
+    "url": "git+https://github.com/aircloud/vite-and-webpack-code-replace.git",
     "directory": "packages/vite-code-replace"
   },
   "license": "MIT",
