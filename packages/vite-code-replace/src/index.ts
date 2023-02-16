@@ -28,7 +28,7 @@ const loadAndReplaceFile = async (
   return fileContent
 }
 
-export function codeReplace(options: CodeReplaceOptions): PluginOption {
+function viteCodeReplace(options: CodeReplaceOptions): PluginOption {
   return {
     name: 'path-load-file',
     load(id: string) {
@@ -36,3 +36,5 @@ export function codeReplace(options: CodeReplaceOptions): PluginOption {
     },
   }
 }
+
+export default viteCodeReplace

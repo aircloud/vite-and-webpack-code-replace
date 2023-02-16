@@ -2,7 +2,7 @@
   "name": "vite-code-replace",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -16,5 +16,6 @@
   "devDependencies": {
     "@types/node": "^18.13.0",
     "typescript": "^4.9.5"
-  }
+  },
+  "gitHead": "07aa1bd73888385ce06cd0e44b097eaf7a896986"
 }
