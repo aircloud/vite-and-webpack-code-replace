@@ -6,8 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/aircloud/vite-and-webpack-code-replace/tree/master/packages/webpack-code-replace",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "loader"
+  ],
+  "author": "aircloud",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aircloud/vite-and-webpack-code-replace.git",
+    "directory": "packages/webpack-code-replace"
+  },
+  "license": "MIT",
   "gitHead": "07aa1bd73888385ce06cd0e44b097eaf7a896986"
 }

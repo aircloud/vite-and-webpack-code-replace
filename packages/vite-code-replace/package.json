@@ -7,9 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/aircloud/vite-and-webpack-code-replace/tree/master/packages/vite-code-replace",
+  "keywords": [
+    "vite",
+    "plugin",
+    "loader"
+  ],
+  "author": "aircloud",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aircloud/vite-and-vite-code-replace.git",
+    "directory": "packages/vite-code-replace"
+  },
+  "license": "MIT",
   "dependencies": {
     "vite": "*"
   },
